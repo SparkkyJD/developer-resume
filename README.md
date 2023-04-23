@@ -1,5 +1,6 @@
 # developer-resume
 HM2 UNC bootcamp
+https://sparkkyjd.github.io/developer-resume/
 ![Screenshot (3)](https://user-images.githubusercontent.com/127361245/233870747-c74e502f-1df2-413d-b711-d9e8e52fa97b.png)
 
 
