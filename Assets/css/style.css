@@ -1,0 +1,421 @@
+html {
+  width: 1635px;
+}
+
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color:beige
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: slategray;
+    color:slategray
+  }
+  
+  .header h1 {
+    display: flex;
+    font-size: 200%; 
+    padding-left: 50px;
+    background-color: skyblue;
+    margin: 6px 0px;
+    padding-right :15px;
+  }
+ 
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    text-decoration: underline 5px lightskyblue;
+    padding-right: 30px;
+  }
+  
+  nav a {
+    color: lightskyblue;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+   
+  .subtitle {
+    overflow: hidden;
+    height: 200px;
+    background-image: url("https://images.ctfassets.net/pdf29us7flmy/3WyIJe69O5yOumjv5Gv01I/f63e9b05be4763bce6561f7555bdbbcf/B7023-How-to-Build-my-Resume-Social.png");  
+
+   }
+
+   .subtitle h2 {
+    display: flex;
+    font-size: 25px;
+    color: grey;
+    padding: 10px;
+    background-color: skyblue;
+    margin-top: 80px;
+    margin-left: 75%;  
+    max-width: 200px;
+   }
+
+   .main {
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    padding: 20px; 
+   }
+
+   .aboutMe-container   {
+    display: flex;
+    margin-top: 15px;
+    width:100%;
+    height: 200px;
+   }
+   
+   .aboutMe-header {
+    font-size: 60px;
+    color: slategray;
+    border-right: 3px solid; 
+    padding-right: 30px;
+    height: 200px;
+    text-align: center;
+   }
+
+    p {
+    font-size: 30px;
+    color: slategray;
+    padding: 30px; 
+   }
+
+  .work-containter {
+    display: flex;
+    margin-top: 15px;
+    width:100%;
+    height: 200px;
+    
+}
+
+  .work-header {
+    font-size: 81.5px;
+    color: slategray;
+    border-right: 3px solid; 
+    float: left;
+    height: 200px;
+    
+  }
+
+  .big-container {
+    width: 83%;
+    height: 200px;
+    background-position:bottom;
+    background-image:url("https://oceanvodka.com/uploads/2019/04/HP-Hero-Header@2x.jpg");
+    border-style: solid;
+    border-color: skyblue;
+    margin-left: 220px;
+    font-size: 40px;
+    color: grey;
+    background-color: skyblue;
+    margin-top: 20px;
+    max-width: 1208px;
+    }
+
+    .big-container-title h1 {
+      padding-left: 10px;
+      width: 200px;
+      background-color: skyblue;
+    }   
+
+    .big-container-title p {
+      font-size: 24px;
+      width: 200px;
+      background-color: skyblue;
+    }
+    .big-container:hover {
+      background-color: skyblue;
+    }
+
+    .small-container-header {
+      color: slategray;
+    border-right: 3px solid; 
+    float: left;
+    height: 420px;
+    margin-left: 10px;
+    width: 189px;
+  }
+
+  .image-overlay {
+    background-color: skyblue
+    position: relative;
+    transition: 0.5s;
+    
+}
+
+   .image-overlay:hover {
+  background-color: skyblue   
+}
+
+   .small-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1208px;
+    height: 8px;
+    font-size: 40px;
+    color: grey;
+    height: 418px;
+    margin-left: 210px;
+    margin-top: 8px;
+   }
+
+   .image-1 {
+   background-image:url("https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png");
+   border-style: center;
+   border-color: skyblue;
+   height: 200px;
+   width: 600px;
+    }
+
+    .image-1 h5 {
+      padding-left: 10px;
+      width: 200px;
+      background-color: skyblue;
+    }
+
+    .image-1 p {
+      padding-left: 40px;
+      height: 148px;
+      width: 200px;
+      background-color: skyblue;
+    }
+ 
+   .image-2 {
+    background-image:url("https://i1.wp.com/dev.babybargains.com/wp-content/uploads/2022/08/Best-Scientific-Calculator.jpeg?resize=1250&w=1250");
+    border-style: solid;
+    background-position: center;
+    border-color: skyblue;
+    height: 200px;
+    width: 600px;
+    margin-left: 8px;
+    }
+
+    .image-2 h6 {
+      padding-left: 2px;
+      font-size: 30px;
+      width: 200px;
+      background-color: skyblue;
+    }
+
+    .image-2 p {
+      font-size: 20px;
+      padding-left: 0px;
+      height: 155px;
+      width: 200px;
+      background-color: skyblue;
+    }
+   
+
+   .image-3 {
+    background-image:url("https://fox59.com/wp-content/uploads/sites/21/2022/10/GettyImages-1147913430.jpg?w=2560&h=1440&crop=1");
+    border-style: solid;
+    background-position: bottom;
+    border-color: skyblue;
+    height: 200px;
+    width: 600px;
+   }
+
+   .image-3 h1 {
+    padding-left: 2px;
+    font-size: 30px;
+    width: 200px;
+    background-color: skyblue;
+  }
+
+  .image-3 p {
+    font-size: 25px;
+    padding-left: 40px;
+    height: 116px;
+    width: 200px;
+    background-color: skyblue;
+  }
+   
+
+   .image-4 {
+    background-image:url("https://previews.123rf.com/images/9george/9george1807/9george180700110/115003155-two-running-men-cartoon-jogging-buddy-vector-illustration.jpg");
+    border-style: solid;
+    background-position: bottom;
+    border-color: skyblue;
+    height: 200px;
+    width: 600px;
+    background-position: center;
+    margin-left: 8px;
+   }
+    
+   .image-4 h1 {
+    padding-left: 2px;
+    font-size: 30px;
+    width: 200px;
+    background-color: skyblue;
+  }
+
+  .image-4 p {
+    font-size: 25px;
+    padding-left: 60px;
+    height: 155px;
+    width: 200px;
+    background-color: skyblue;
+  }
+
+  .contact-me-container {
+    height: 200px;
+    margin: 20px;
+   }
+
+   .contact-me-header {
+    font-size: 48.5px;
+    color: slategray;
+    border-right: 3px solid; 
+    height: 200px;
+    float: left;
+    
+   }
+
+   .contact-me-info  {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+   }
+
+   .contact-me-info li  {
+    font-size: 40px;
+    color: slategray;
+    display: inline-block ;
+    align-content: center;
+    margin:20px;
+    justify-content: space-evenly;
+    flex-direction: row;
+    box-sizing: border-box;
+    align-content: center;
+   }
+
+   .contact-me-info a {
+    color: slategrey;
+   }
+   
+
+
+@media screen and (max-width: 990px) {
+
+
+  header{
+      display: flex;
+      flex-direction: column;
+      padding-bottom: 20px;
+      font-size: 60px;
+      
+  }
+
+
+   header h1 {  
+      justify-content: center;
+      padding: 20px;
+      width: 100%;
+      
+  }
+
+
+  header a {
+    font-size: 40px;  
+    width: 600px;
+  }
+
+  nav ul {
+    display: block;
+    margin: 0;
+    text-align: center;   
+}
+.subtitle {
+  height: 400px;
+ }
+
+ .subtitle h2 {
+  font-size: 38px;
+  color: grey;
+  background-color: skyblue;
+  margin-left: 705px;
+  margin-top: 140px;
+ }
+
+ .aboutMe-container   {
+  flex-direction: column;
+  height: 400px;
+ }
+
+ .aboutMe-header{
+  border-bottom: 3px solid; 
+ 
+ }
+ .aboutMe-header h3 {
+  align-content: center;
+ }
+
+  p{
+  font-size: 40px;
+ }
+
+ 
+
+ .work-header {
+  border-bottom: 3px solid; 
+  border-right: none;
+  width: 100%;
+  text-align:center
+  
+ }
+
+
+ .big-container {
+overflow:hidden;
+
+  }
+
+  p {
+    padding: none;
+    margin: none;
+    align-items: flex-end;
+  }
+
+  .small-container-header {
+  border-right: none; 
+}
+
+
+
+.contact-me-container {
+ width: 100%;
+ height: 500px;
+ }
+
+ .contact-me-header { 
+  border-bottom: 3px solid; 
+  border-right: none;
+  width: 100%;
+  text-align:center
+   }
+
+   ul {
+    margin-top: 300px;
+    margin-right: 1560px;
+   }
+
+   .contact-me-info li  {
+    
+   }
+}
