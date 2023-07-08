@@ -1,105 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mod-2-homework</title>
-    <link rel="stylesheet" href="./Assets/css/reset.css" />
-    <link rel="stylesheet" href="./Assets/css/style.css" />
-  </head>
-  
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
 <body>
-    
-    <header class="header">
-        <h1>Eric Wagner</h1>
-        <nav>
-          <ul>
-            <li><a href="#about-me-nav">About Me</a></li>
-            <li><a href="#work-nav">Work</a></li>
-            <li><a href="#contact-me-nav">Contact Me</a></li>
-            <li><a href="https://github.com/SparkkyJD/Module-1-Challenge-">Resume</a></li>
-          </ul>
-        </nav>
-    </header>
-    
-    <aside class="subtitle">
-      <h2>Web Developer</h2>
-    </aside>
-    
-    <main>
-      <section id="aboutMe-nav" class="aboutMe-container">
-        <h3 class="aboutMe-header">About<br>Me</h3>
-          <p>Lorem ipsum dolor sit amet 
-                consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Doloribus voluptas, in amet excepturi minima, error quisquam, 
-                dolores perspiciatis inventore!</p>
-          
-      </section>
-      
-      <section id="work-nav" class="work-container">
-        <h4 class="work-header">Work</h4>
-          <div class="big-container">
-            <div class="image-overlay">
-               <div class="big-container-title">
-                     <h1>Surf Report</h1>
-                     <p>MERN Report</p>
-               </div>
+  <header>
+    <div class="container">
+      <h1 class="display-4">Eric Wagner's Portfolio</h1>
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="https://docs.google.com/document/d/117LT7pPhExUEEN5OXZ4JaxbwLA7VQsCc/edit?usp=sharing&ouid=106204252899515224221&rtpof=true&sd=true">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-me">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+ <section id="about-me" class="bg-light-gray py-5">
+  <div class="container">
+    <div class="profile-picture">
+      <img src="https://scontent-atl3-2.xx.fbcdn.net/v/t1.6435-9/36429747_10205042995870044_7179339088565108736_n.jpg?_nc_cat=104&cb=99be929b-59f725be&ccb=1-7&_nc_sid=174925&_nc_ohc=cTF-4J_qE6kAX9azzog&_nc_ht=scontent-atl3-2.xx&oh=00_AfBuwPd5cAK32eErpN08dHK8nkhxnF2WAdJux0Urf4KimA&oe=64D14D44" alt="Profile Picture">
+    </div>
+    <h2 class="display-6">About Me</h2>
+    <p class="lead">
+      Aeronautical and agricultural equipment technician with 10+ years experience, including 4 years military service,
+      wanting to transition into a software engineering career. Hard-working and dedicated professional with a proven track
+      record of maintaining high quality work standards. I believe my mechanical engineering training and problem-solving skills
+      acquired while working on state-of-the-art equipment such as secret clearance level naval aircraft, will help me to be successful
+      as a software engineer. I am currently attending school in my off hours, and I am seeking opportunities to gain hands-on coding experience.
+    </p>
+  </div>
+</section>
+  
+
+  <section id="work">
+  <div class="container">
+    <h2 class="display-4 mb-5">Work</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col-md-12">
+        <a href="https://challenge-fitness-9cf387429034.herokuapp.com/login" class="work-link">
+          <div class="card h-100">
+            <img src="https://oceanvodka.com/uploads/2019/04/HP-Hero-Header@2x.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Challenge Fitness App</h5>
+              <p class="card-text">Mern Stack</p>
+              <div class="card-overlay"></div>
             </div>
           </div>
-      </section>           
-      
-      <section class="small-container-header">
-        <section class="small-container">
-            <figure class="image-1">
-                <div class="image-overlay">
-                    <div class="image-title">
-                        <h5>LED Wall</h5>
-                        <p>Node/IoT</p>
-                    </div>
-                </div>
-            </figure>
-            
-              <figure class="image-2">
-                <div class="image-overlay">
-                    <div class="image-title">
-                        <h6>Calculator</h6>
-                        <p>React/Javascript/CSS</p>
-                    </div>
-                </div>
-              </figure>
-            
-            <figure class="image-3">
-                <div class="image-overlay">
-                    <div class="image-title">
-                        <h1>Pastel Puzzels</h1>
-                        <p>MERN Stack</p>
-                    </div>
-                </div>
-            </figure>
-            <figure class="image-4">
-                <div class="image-overlay">
-                    <div class="image-title">
-                        <h1>Run Buddy</h1>
-                        <p>HTML/CSS</p>
-                    </div>
-                </div>
-            </figure>
-        </section>
-      </section>     
-    </main>
-    <footer id="contact-me-nav" class="contact-me-container">
-      <h1 class="contact-me-header">Contact<br>Me</h1>
-       <section class="contact-me-info">
-        <ul>
-            <li><a href="#">555.555.5555</a></li>
-            <li><a href="#">email@email.com</a></li>
-            <li><a href="#">Github</a></li>
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Spotify</a></li>
-        </ul>
-      </section>
-    </footer>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://sparkkyjd.github.io/Marvel-comic-search/" class="work-link">
+          <div class="card h-100">
+            <img src="https://www.matrixvisual.com/wp-content/uploads/2016/07/LED-Wall-Benefits.png" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Marvel Longbox App</h5>
+              <p class="card-text">JS/CSS/HTML/API</p>
+              <div class="card-overlay"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://note-taker-11-unc-a70c80b5b2c9.herokuapp.com/notes" class="work-link">
+          <div class="card h-100">
+            <img src="https://i1.wp.com/dev.babybargains.com/wp-content/uploads/2022/08/Best-Scientific-Calculator.jpeg?resize=1250&w=1250" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Note Taker App</h5>
+              <p class="card-text">express/Javascript/uuid</p>
+              <div class="card-overlay"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://sparkkyjd.github.io/weather-dashboard/" class="work-link">
+          <div class="card h-100">
+            <img src="https://fox59.com/wp-content/uploads/sites/21/2022/10/GettyImages-1147913430.jpg?w=2560&h=1440&crop=1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Weather Dashboard App</h5>
+              <p class="card-text">JS/HTML</p>
+              <div class="card-overlay"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-md-3">
+        <a href="https://github.com/SparkkyJD/E-Commerce-Back-End" class="work-link">
+          <div class="card h-100">
+            <img src="https://previews.123rf.com/images/9george/9george1807/9george180700110/115003155-two-running-men-cartoon-jogging-buddy-vector-illustration.jpg" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">E-Commerce-Back-End</h5>
+              <p class="card-text">dotenv/express/mysql/sequelize</p>
+              <div class="card-overlay"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section id="contact-me">
+    <div class="container">
+      <h2 class="display-6">Contact Me</h2>
+      <ul class="list-unstyled">
+        <li><a href="#" class="contact-link">919-525-5401</a></li>
+        <li><a href="mailto:wagnd4e@gmail.com" class="contact-link">wagnd4e@gmail.com</a></li>
+        <li><a href="https://github.com/SparkkyJD" class="contact-link">Github</a></li>
+        <li><a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="contact-link">LinkedIn</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
